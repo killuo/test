@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EHSmellReport>
+  <Summary>
+    <ProjectName>eureka-server</ProjectName>
+    <DateTime>2017/11/29 上午11時51分50秒</DateTime>
+  </Summary>
+  <EHSmellList>
+    <EmptyCatchBlock>0</EmptyCatchBlock>
+    <DummyHandler>0</DummyHandler>
+    <UnprotectedMainProgram>1</UnprotectedMainProgram>
+    <NestedTryStatement>0</NestedTryStatement>
+    <CarelessCleanup>0</CarelessCleanup>
+    <ExceptionThrownFromFinallyBlock>0</ExceptionThrownFromFinallyBlock>
+    <Total>1</Total>
+  </EHSmellList>
+  <CodeInfoList>
+    <LOC>15</LOC>
+    <TryNumber>0</TryNumber>
+    <CatchNumber>0</CatchNumber>
+    <FinallyNumber>0</FinallyNumber>
+  </CodeInfoList>
+  <AllPackageList>
+    <Package>
+      <ID>0</ID>
+      <LOC>15</LOC>
+      <EmptyCatchBlock>0</EmptyCatchBlock>
+      <DummyHandler>0</DummyHandler>
+      <UnprotectedMainProgram>1</UnprotectedMainProgram>
+      <NestedTryStatement>0</NestedTryStatement>
+      <CarelessCleanup>0</CarelessCleanup>
+      <ExceptionThrownFromFinallyBlock>0</ExceptionThrownFromFinallyBlock>
+      <PackageTotal>1</PackageTotal>
+      <HrefPackageName>#java/com.didispace</HrefPackageName>
+      <PackageName>java/com.didispace</PackageName>
+    </Package>
+  </AllPackageList>
+  <PackageList>
+    <Package>
+      <PackageName>java/com.didispace</PackageName>
+      <ClassList>
+        <SmellData>
+          <ClassName>Application.java</ClassName>
+          <State>0</State>
+          <LinkCode>#/eureka-server/src/main/java/com/didispace/Application.java#11#</LinkCode>
+          <MethodName>main</MethodName>
+          <SmellType>Unprotected Main Program</SmellType>
+          <Line>11</Line>
+        </SmellData>
+      </ClassList>
+      <Total>1</Total>
+    </Package>
+  </PackageList>
+</EHSmellReport>
+
